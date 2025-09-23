@@ -6,3 +6,4 @@ class PredictRequest(BaseModel):
 class PredictResponse(BaseModel):
     label: str
     probability: float
+
